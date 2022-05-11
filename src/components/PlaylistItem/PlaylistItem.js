@@ -5,7 +5,7 @@ import Avatar from '@mui/material/Avatar';
 import ListItemText from '@mui/material/ListItemText';
 import { Skeleton } from '@mui/material';
 
-function PlaylistItem({ name, id, images, loading }) {
+function PlaylistItem({ name, id, image, loading }) {
   if (loading)
     return (
       <ListItem disablePadding>
@@ -24,7 +24,7 @@ function PlaylistItem({ name, id, images, loading }) {
         <ListItemAvatar sx={{ marginRight: '15px' }}>
           <Avatar
             alt='Remy Sharp'
-            src={images}
+            src={image}
             variant='square'
             sx={{ height: 60, width: 60 }}
           />
