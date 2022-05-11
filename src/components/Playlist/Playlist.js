@@ -8,6 +8,7 @@ const Playlist = ({ name, image, loading, songs }) => {
         bgcolor: 'background.paper',
         padding: '60px',
         flex: 1,
+        display: { xs: 'none', md: 'block' },
       }}
     >
       <Grid container spacing={2} mb={6}>
