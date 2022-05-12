@@ -18,6 +18,8 @@ export default function SideNav({ playlists }) {
         width: 275,
         height: '100vh',
         display: { xs: 'none', md: 'block' },
+        zIndex: 1,
+        boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.5)',
       }}
     >
       <img

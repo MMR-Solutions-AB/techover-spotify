@@ -14,6 +14,7 @@ export default function SideNavOption({ name, Icon }) {
         '&:hover': {
           color: '#fff',
         },
+        cursor: 'pointer',
       }}
     >
       {Icon && <Icon style={{ fontSize: '32px' }} />}
